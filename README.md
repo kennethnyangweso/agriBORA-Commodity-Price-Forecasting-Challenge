@@ -90,3 +90,32 @@ To predict average weekly sales of maize in the five target counties
 - Rolling volatility
 
 ## **Exploratory Data Analysis (EDA)**
+
+<img width="1010" height="556" alt="image" src="https://github.com/user-attachments/assets/389803d0-1dad-459c-9f37-eff5b901fbfe" />
+
+
+<img width="1019" height="556" alt="image" src="https://github.com/user-attachments/assets/f52e3176-24c8-41fc-8c06-5f007d89644e" />
+
+
+<img width="847" height="556" alt="image" src="https://github.com/user-attachments/assets/4c6c4379-732e-4ee9-9fb2-34e5f12c0d26" />
+
+
+<img width="1010" height="556" alt="image" src="https://github.com/user-attachments/assets/ff985453-09ac-4e62-800e-99dd84af6c21" />
+
+
+<img width="1033" height="655" alt="image" src="https://github.com/user-attachments/assets/28c237e2-4baf-4435-b146-a308ceaf730b" />
+
+
+### Key Observations
+
+- **Approximately Normal Distribution**: The KDE curve shows the data follows a roughly bell-shaped pattern centered around the mean, suggesting typical market pricing follows a normal distribution.
+- **Unequal Data Availability**: The five counties have different numbers of observations, with some counties having significantly more data points than others.
+- **Geographic Price Differences**: Counties show different average wholesale prices, indicating geographic market segmentation based on demand, supply, logistics, and local market dynamics.
+- **Temporal Trends**: There's a clear upward or downward trend (or both) in prices over the time period, indicating that time itself is a significant predictor of maize prices.
+- **Lag Feature Importance**: The wholesale lags (lag_1, lag_2, lag_3, lag_4, lag_8) show strong positive correlations with the target (wholesale price), confirming past prices are excellent predictors - this justifies including lag features.
+
+
+
+
+
+
