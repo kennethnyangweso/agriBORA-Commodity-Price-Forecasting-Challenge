@@ -115,7 +115,38 @@ To predict average weekly sales of maize in the five target counties
 - **Lag Feature Importance**: The wholesale lags (lag_1, lag_2, lag_3, lag_4, lag_8) show strong positive correlations with the target (wholesale price), confirming past prices are excellent predictors - this justifies including lag features.
 
 
+## **Modeling**
 
+Model used :
+-  XGBoost Regressor
+
+## **Results**
+
+=== County: Kiambu ===
+ Validation RMSE: 11.647, MAE: 9.439
+
+=== County: Kirinyaga ===
+ Validation RMSE: 1.604, MAE: 1.346
+
+=== County: Mombasa ===
+ Validation RMSE: 6.091, MAE: 4.747
+
+=== County: Nairobi ===
+ Validation RMSE: 0.047, MAE: 0.032
+
+=== County: Uasin-Gishu ===
+ Validation RMSE: 3.672, MAE: 2.622
+
+## **Acknowledgement**
+
+This project was developed as part of a machine learning challenge hosted on Zindi. The competition provided an opportunity to apply data science and predictive modeling techniques to a real-world problem while learning from the broader AI and machine learning community.
+
+## **Achievement**
+
+Successfully participated in the Zindi challenge and achieved a ranking of **277 out of 365 participants**. The project involved data preprocessing, exploratory data analysis (EDA), feature engineering, model training, and performance evaluation using machine learning techniques.
+
+
+ 
 
 
 
