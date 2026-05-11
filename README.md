@@ -93,19 +93,19 @@ To predict average weekly sales of maize in the five target counties
 
 <img width="1010" height="556" alt="image" src="https://github.com/user-attachments/assets/389803d0-1dad-459c-9f37-eff5b901fbfe" />
 
-
+---
 <img width="1019" height="556" alt="image" src="https://github.com/user-attachments/assets/f52e3176-24c8-41fc-8c06-5f007d89644e" />
 
-
+---
 <img width="847" height="556" alt="image" src="https://github.com/user-attachments/assets/4c6c4379-732e-4ee9-9fb2-34e5f12c0d26" />
 
-
+---
 <img width="1010" height="556" alt="image" src="https://github.com/user-attachments/assets/ff985453-09ac-4e62-800e-99dd84af6c21" />
 
-
+---
 <img width="1033" height="655" alt="image" src="https://github.com/user-attachments/assets/28c237e2-4baf-4435-b146-a308ceaf730b" />
 
-
+---
 ### Key Observations
 
 - **Approximately Normal Distribution**: The KDE curve shows the data follows a roughly bell-shaped pattern centered around the mean, suggesting typical market pricing follows a normal distribution.
